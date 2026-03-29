@@ -821,11 +821,9 @@ footer{
         padding-left: 0px;
     }
     .sending{
-        padding-right: 10px;
-    }
-    .sending{
-        width: 206px;
+        width: 180px;
         height: 30px;
+         padding-right: 10px;
     }
     .button-footer{
         width: 206px;
@@ -845,24 +843,24 @@ footer{
         gap: 40px;
     }
     .V{
-        width: 150px;
-        height: 30px;
+        width: 100px;
+        height: 20px;
     }
      .Z{
-        width: 80px;
-        height: 30px;
+        width: 50px;
+        height: 20px;
     }
      .G{
-        width: 140px;
-        height: 30px;
+        width: 100px;
+        height: 20px;
     }
      .P{
-        width: 140px;
-        height: 25px;
+        width: 100px;
+        height: 20px;
     }
      .CK{
-        width: 170px;
-        height: 30px;
+        width: 120px;
+        height: 20px;
     }
     .n4{
        flex-direction: column;
