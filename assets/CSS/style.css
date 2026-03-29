@@ -795,13 +795,13 @@ footer{
     }
     @keyframes Email2 {
         0%{
-            top:4300px;
+            top:4100px;
         }
         50%{
-            top:4400px;
+            top:4200px;
         }
         100%{
-            top: 4300px;
+            top: 4100px;
         }
     }
     .f1{
@@ -821,12 +821,12 @@ footer{
         padding-left: 0px;
     }
     .sending{
-        width: 180px;
+        width: 215px;
         height: 30px;
          padding-right: 10px;
     }
     .button-footer{
-        width: 206px;
+        width: 215px;
         height: 30px;
         font-size: 13px;
     }
