@@ -795,13 +795,13 @@ footer{
     }
     @keyframes Email2 {
         0%{
-            top:4100px;
+            top:4090px;
         }
         50%{
-            top:4200px;
+            top:4170px;
         }
         100%{
-            top: 4100px;
+            top: 4090px;
         }
     }
     .f1{
