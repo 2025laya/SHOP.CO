@@ -1,0 +1,294 @@
+.NEW-ARRIVALS swiper-container {
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      border-radius: 40px;
+      padding-top: 40px;
+      padding-right: 20px;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .product{
+        display: flex;
+        flex-direction: column;
+    }
+    .image3{
+        padding-bottom: 5% ;
+        /* width: 100px; */
+        padding-left: 10%;
+        padding-right: 30%;
+    }
+    .image4{
+        padding-bottom: 5% ;
+        width: 400px;
+        padding-left: 10%;
+        padding-right: 30%;
+    }
+    .title{
+        text-align: left;
+        font-family: "Bold";
+        font-size: 20px;
+        padding-left: 45px;
+        padding-bottom: 20px;
+    }
+    .description{
+        text-align: left;
+        font-family: Regular;
+        font-size: 15px;
+        padding-left: 45px;
+        padding-bottom: 20px;
+    }
+    .category{
+        text-align: left;
+        padding-left: 45px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        font-family: Regular;
+    }
+    .price{
+        text-align: left;
+        padding-left: 45px;
+        font-size: 20px;
+        font-family: Regular;
+        color: red;
+        background-color: transparent;
+        border-style: none;
+    }
+    .SP{
+        display: flex;
+        padding-left: 12%;
+        background-color: beige;
+        width: 90%;
+        margin-top: 8%;
+        margin-left: 10%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border-radius: 20px;
+        margin-bottom: 10%;
+    }
+    .inp{
+        border-style: none;
+        width: 300px;
+        background-color: transparent;
+    }
+    .word{
+        color: black;
+        font-family: Regular;
+        font-size: 15px;
+    }
+    .FLEX{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 10vw;
+       padding-right: 10vw;
+       padding-bottom: 40px;
+    }
+    .GRID1{
+       display: flex;
+       flex-direction: row;
+       gap: 20px;
+    }
+    .GRID2{
+        display: flex;
+       flex-direction: row;
+       gap: 20px;
+    }
+    .Casual{
+        background-image: url(../Images/image\ 11\ \(1\).png);
+        border-radius: 40px;
+        width: 407px;
+        height: 289px;
+        font-family: Regular;
+        font-size: 30px;
+        padding-left: 25px;
+        padding-top: 10px;
+    }
+    .Formal{
+        background-image: url(../Images/image\ 13\ \(1\).png);
+        border-radius: 40px;
+        width: 684px;
+        height: 289px;
+        font-family: Regular;
+        font-size: 30px;
+        padding-left: 25px;
+        padding-top: 10px;
+    }
+    .Party{
+        background-image: url(../Images/image\ 12\ \(1\).png);
+        border-radius: 40px;
+        width: 684px;
+        height: 289px;
+        font-family: Regular;
+        font-size: 30px;
+        padding-left: 25px;
+        padding-top: 10px;
+    }
+    .Gym{
+        background-image: url(../Images/image\ 14\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 40px;
+        width: 407px;
+        height: 289px;
+        font-family: Regular;
+        font-size: 30px;
+        padding-left: 25px;
+        padding-top: 10px;
+    }
+    .the-title{
+        font-family: "Extra-Bold";
+        font-size: 48px;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .s2{
+        margin-left: 5vw;
+        margin-right: 5vw;
+        border-radius: 40px;
+        padding-bottom: 30px;
+    }
+    .button1:hover{
+      transform: translateY(-5px);
+    }
+    .Casual:hover{
+       transform: translateY(-5px); 
+    }
+    .Formal:hover{
+       transform: translateY(-5px); 
+    }
+    .Party:hover{
+       transform: translateY(-5px); 
+    }
+    .Gym:hover{
+       transform: translateY(-5px); 
+    }
+    @media screen and (max-width:1140px) {
+        .image4{
+        padding-bottom: 5% ;
+        width: 200px;
+        padding-left: 10%;
+        padding-right: 30%;
+    }
+         .the-title{
+        font-size: 33px;
+        padding-left: 27vw;
+    }
+     .GRID1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+     }
+     .GRID2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+     }
+     .Casual{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 500px;
+        height: 289px;
+    }
+    .Formal{
+       background-repeat: no-repeat;
+        background-size: cover;
+        width: 500px;
+        height: 289px;
+    }
+    .Party{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 500px;
+        height: 289px;
+    }
+    .Gym{
+       background-repeat: no-repeat;
+        background-size: cover;
+        width: 500px;
+        height: 289px;
+    }
+    .FLEX{
+        padding-left: 0vw;
+    }
+    }
+    @media screen and (max-width:690px) {
+        .image4{
+        padding-bottom: 5% ;
+        width: 170px;
+        padding-left: 10%;
+        padding-right: 30%;
+    }
+         .Casual{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 189px;
+    }
+    .Formal{
+       background-repeat: no-repeat;
+        background-size: cover;
+         width: 300px;
+        height: 189px;
+    }
+    .Party{
+        background-repeat: no-repeat;
+        background-size: cover;
+         width: 300px;
+        height: 189px;
+    }
+    .Gym{
+       background-repeat: no-repeat;
+        background-size: cover;
+         width: 300px;
+        height: 189px;
+    }
+    .the-title{
+        font-size: 27px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .image3{
+        padding-left: 10%;
+        width: 160px;
+    }
+    .description{
+        display: none;
+    }
+    .category{
+        font-size: 15px;
+    }
+    .price{
+        font-size: 15px;
+    }
+    .inp{
+        width:60px;
+        font-size: 10px;
+    }
+    }
