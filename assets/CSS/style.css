@@ -383,13 +383,13 @@ footer{
 }
  @keyframes Email {
         0%{
-    top: 520%;
+    top: 3500px;
 }
  50%{
-    top: 500%;
+    top: 3600px;
  } 
  100%{
-    top: 520%;
+    top: 3500px;
  } }
  @keyframes D1 {
     0%{
@@ -665,13 +665,13 @@ footer{
    }
    @keyframes Email1 {
     0%{
-        top:670%;
+        top:4800px;
     }
     50%{
-        top:690%;
+        top:4700px;
     }
     100%{
-        top: 670%;
+        top: 4800px;
     }
    }
    .f1{
@@ -779,8 +779,8 @@ footer{
 }
      .img-pranding{
     margin-top: 20px;
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
    }
     .ss11{
         display: block;
@@ -795,13 +795,13 @@ footer{
     }
     @keyframes Email2 {
         0%{
-            top:620%
+            top:4300px;
         }
         50%{
-            top:640%;
+            top:4400px;
         }
         100%{
-            top: 620%;
+            top: 4300px;
         }
     }
     .f1{
