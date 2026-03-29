@@ -793,16 +793,35 @@ footer{
         justify-content: center;
         align-items: center;
     }
+    @keyframes Email2 {
+        0%{
+            top:620%
+        }
+        50%{
+            top:640%;
+        }
+        100%{
+            top: 620%;
+        }
+    }
     .f1{
         padding-left: 15vw;
         padding-right: 15vw;
         padding-top: 10px;
         padding-bottom: 10px;
         top: 610%;
+        animation-name: Email2;
     }
     .f11{
         font-size: 20px;
         padding-left: 0px;
+    }
+    .f12{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    .sending{
+        padding-right: 10px;
     }
     .sending{
         width: 206px;
