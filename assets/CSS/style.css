@@ -871,4 +871,14 @@ footer{
     .n2{
         display: none;
     }
+    .yes{
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .no{
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
