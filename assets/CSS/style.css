@@ -473,6 +473,10 @@ footer{
     flex-direction: column;
     gap: 30px;
 }
+.send1{
+    border-style: none;
+    width: 150px;
+}
 .sotial-media-icons{
     display: flex;
     gap: 20px;
@@ -881,4 +885,243 @@ footer{
         padding-left: 40px;
         padding-right: 40px;
     }
+}
+@media screen and (max-width:410px){
+   .attend{
+    height: 12vw;
+    padding-left: 50px;
+    font-size: 10px;
+   } 
+   .yes{
+    padding-left: 30px;
+   }
+   .no{
+    padding-left: 30px;
+   }
+   .n1{
+    font-size: 20px;
+   }
+   .n22{
+    font-size: 25px;
+   }
+   .n4-1{
+    font-size: 15px;
+   }
+   .searching{
+    font-size: 15px;
+   }
+   .n4{
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 5px;
+   }
+   .n41{
+    gap: 5px;
+   }
+   .img-pranding{
+    width: 280px;
+    height: 280px;
+   }
+   .p1{
+    font-size: 30px;
+   }
+   .p2{
+    font-size: 11px;
+   }
+   .paragraphs{
+    padding-top: 40px;
+   }
+   .button1{
+    width: 160px;
+    height: 5px;
+    font-size: 10px;
+    padding-bottom: 25px;
+   }
+   .num-p11{
+    font-size: 25px;
+   }
+   .num-p12{
+    font-size: 25px;
+   }
+   .num-p13{
+    font-size: 25px;
+   }
+   .par-p11{
+    font-size: 10px;
+   }
+   .par-p12{
+    font-size: 10px;
+   }
+   .par-p13{
+    font-size: 10px;
+   }
+   .paragraph2{
+    gap: 30px;
+   }
+   .V{
+    width: 70px;
+    height: 15px;
+   }
+   .Z{
+    width: 50px;
+    height: 15px;
+   }
+   .G{
+    width: 70px;
+    height: 15px;
+   }
+   .P{
+    width: 70px;
+    height: 15px;
+   }
+   .CK{
+    width: 90px;
+    height: 15px;
+   }
+   .prands{
+    padding: 6vw;
+   }
+   .s1-title{
+    font-size: 20px;
+    padding: 6vw;
+    margin-bottom: 20px;
+   }
+   .NEW-ARRIVALS{
+    padding-top: 20px;
+    padding-bottom: 0px;
+   }
+   .card1{
+    flex-direction: column;
+   }
+   .c11{
+    font-size: 12px;
+   }
+   .c12{
+    font-size: 15px;
+   }
+   .c13{
+    font-size: 12px;
+   }
+   .c21{
+    font-size: 12px;
+   }
+   .c22{
+    font-size: 15px;
+   }
+   .c23{
+    font-size: 12px;
+   }
+   .c31{
+    font-size: 12px;
+   }
+   .c32{
+    font-size: 15px;
+   }
+   .c33{
+    font-size: 12px;
+   }
+   .card{
+    padding: 16px 18px;
+   }
+   .s3{
+    padding-bottom: 150px;
+   }
+   @keyframes Email3 {
+        0%{
+            top:2550px;
+        }
+        50%{
+            top:2600px;
+        }
+        100%{
+            top: 2550px;
+        }
+    }
+   .f1{
+    animation-name: Email3;
+    padding-left: 8vw;
+    padding-right: 8vw;
+   }
+   .f11{
+    font-size: 10px;
+   }
+   .f12{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+   .sending{
+    width: 140px;
+    height: 23px;
+    font-size: 15px;
+    gap: 10px;
+    padding-left: 10px;
+   }
+   .send1{
+    width: 100px;
+   }
+   .button-footer{
+    width: 140px;
+    height: 23px;
+    font-size: 10px;
+   }
+   .f2{
+    padding-top: 0px;
+    margin-top: 0px;
+   }
+   .t-footer{
+    font-size: 25px;
+   }
+   .p-footer{
+    font-size: 9px;
+   }
+   .f211{
+    gap: 20px;
+   }
+   .sotial-media-icons{
+    font-size: 20px;
+   }
+   .midume{
+    gap: 50px;
+   }
+   .midume1{
+    gap: 70px;
+   }
+   .midume2{
+    gap: 70px;
+   }
+   .COMPANY{
+    font-size: 12px;
+   }
+   .details{
+    gap: 15px;
+   }
+   .c{
+    font-size: 12px;
+   }
+   .f221{
+    font-size: 10px;
+   }
+   .VISA{
+    width: 45px;
+    height: 40px;
+   }
+   .Badge{
+    width: 45px;
+    height: 40px;
+   }
+   .PayPal{
+    width: 45px;
+    height: 40px;
+   }
+   .App-Pay{
+    width: 45px;
+    height: 40px;
+   }
+   .google-Pay{
+    width: 45px;
+    height: 40px;
+   }
+   .f222{
+    padding-top: 0px;
+   }
 }

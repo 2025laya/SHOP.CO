@@ -161,9 +161,9 @@
         font-family: "Extra-Bold";
         font-size: 48px;
         padding-left: 25vw;
-        padding-right: 25vw;
-        padding-top: 40px;
-        padding-bottom: 30px;
+        padding-right: 20vw;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
     .s2{
         margin-left: 5vw;
@@ -292,3 +292,51 @@
         font-size: 10px;
     }
     }
+    @media screen and (max-width:410px) {
+        .the-title{
+            font-size: 20px;
+            padding: 10vw;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .Casual{
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 200px;
+            height: 120px;
+            border-radius: 20px;
+            font-size: 20px;
+        }
+        .Formal{
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 200px;
+            height: 120px;
+            border-radius: 20px;
+            font-size: 20px;
+        }
+        .Party{
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 200px;
+            height: 120px;
+            border-radius: 20px;
+            font-size: 20px;
+        }
+        .Gym{
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 200px;
+            height: 120px;
+            border-radius: 20px;
+            font-size: 20px;
+        }
+        .FLEX{
+            padding-right: 0vw;
+            padding-bottom: 5px;
+        }
+         .s2{
+        border-radius: 30px
+    }
+    }
+   
