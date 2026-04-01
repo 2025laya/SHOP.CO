@@ -236,6 +236,21 @@
     .FLEX{
         padding-left: 0vw;
     }
+    .description{
+        font-size: 12px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .category{
+        font-size: 15px;
+    }
+    .price{
+        font-size: 20px;
+    }
+    .inp{
+        width: 120px;
+    }
     }
     @media screen and (max-width:690px) {
         .image4{
@@ -281,8 +296,11 @@
     .description{
         display: none;
     }
+    .title{
+        font-size: 10px;
+    }
     .category{
-        font-size: 15px;
+        font-size: 12px;
     }
     .price{
         font-size: 15px;
@@ -291,6 +309,7 @@
         width:60px;
         font-size: 10px;
     }
+    
     }
     @media screen and (max-width:410px) {
         .the-title{
@@ -337,6 +356,35 @@
         }
          .s2{
         border-radius: 30px
+    }
+    .title{
+        font-size: 8px;
+        text-align: center;
+        padding-left: 20px;
+    }
+    .category{
+        font-size: 10px;
+        padding-left: 35px;
+    }
+    .image3{
+        width: 120px;
+    }
+    .price{
+        font-size: 10px;
+        padding-left: 36px;
+    }
+    .inp{
+        width: 65px;
+    }
+    .SP{
+        margin-left: 10px;
+        width: 90px;
+        height: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .word{
+        font-size: 12px;
     }
     }
    

@@ -1,9 +1,9 @@
 let data=[];
 async function rp1() {
      try{
-    let D = await fetch ("https://fakestoreapi.com/products?limit=5");
+    let D = await fetch ("https://dummyjson.com/products?limit=5");
     D = await D.json();
-    data=D
+    data=D.products
     console.log(data);
      read();
     }
@@ -181,7 +181,7 @@ function read(){
     for(let i=0 ; i<data.length ; i++){
        PRO.innerHTML+=`
        <swiper-slide class="product">
-       <img class="image3" src="${data[i].image}" alt="${data[i].title}">
+       <img class="image3" src="${data[i].images}" alt="${data[i].title}">
         <div class="title">
            ${data[i].title}
         </div>
@@ -192,7 +192,7 @@ function read(){
             ${data[i].category}
         </div>
         <button class="price">
-            ${data[i].price}
+            ${data[i].price} $
         </button>
         <div class="SP">
             <h4 class="word">SP</h4>
@@ -287,4 +287,4 @@ else{
 }
 }
 );
-
+console.log(data.products)

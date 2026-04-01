@@ -383,13 +383,13 @@ footer{
 }
  @keyframes Email {
         0%{
-    top: 3500px;
+    top: 3400px;
 }
  50%{
-    top: 3600px;
+    top: 3500px;
  } 
  100%{
-    top: 3500px;
+    top: 3400px;
  } }
  @keyframes D1 {
     0%{
@@ -669,13 +669,13 @@ footer{
    }
    @keyframes Email1 {
     0%{
-        top:4800px;
-    }
-    50%{
         top:4700px;
     }
+    50%{
+        top:4600px;
+    }
     100%{
-        top: 4800px;
+        top: 4700px;
     }
    }
    .f1{
@@ -799,13 +799,13 @@ footer{
     }
     @keyframes Email2 {
         0%{
-            top:4300px;
+            top:4100px;
         }
         50%{
-            top:4370px;
+            top:4300px;
         }
         100%{
-            top: 4300px;
+            top: 4100px;
         }
     }
     .f1{
@@ -815,6 +815,7 @@ footer{
         padding-bottom: 10px;
         top: 610%;
         animation-name: Email2;
+        animation-duration: 4s;
     }
     .f11{
         font-size: 20px;
@@ -1028,13 +1029,13 @@ footer{
    }
    @keyframes Email3 {
         0%{
-            top:2550px;
+            top:2780px;
         }
         50%{
-            top:2600px;
+            top:2830px;
         }
         100%{
-            top: 2550px;
+            top: 2780px;
         }
     }
    .f1{
