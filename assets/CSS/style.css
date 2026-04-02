@@ -887,7 +887,7 @@ footer{
         padding-right: 40px;
     }
 }
-@media screen and (max-width:410px){
+@media screen and (max-width:471px){
    .attend{
     height: 12vw;
     padding-left: 50px;
@@ -1029,13 +1029,13 @@ footer{
    }
    @keyframes Email3 {
         0%{
-            top:2780px;
+            top:2750px;
         }
         50%{
-            top:2830px;
+            top:2800px;
         }
         100%{
-            top: 2780px;
+            top: 2750px;
         }
     }
    .f1{
@@ -1124,5 +1124,23 @@ footer{
    }
    .f222{
     padding-top: 0px;
+   }
+}
+@media screen and (max-width:373px) {
+    @keyframes Email4 {
+        0%{
+            top:2800px;
+        }
+        50%{
+            top:2850px;
+        }
+        100%{
+            top: 2800px;
+        }
+    }
+   .f1{
+    animation-name: Email4;
+    padding-left: 8vw;
+    padding-right: 8vw;
    }
 }

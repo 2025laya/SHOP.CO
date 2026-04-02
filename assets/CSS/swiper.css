@@ -311,7 +311,7 @@
     }
     
     }
-    @media screen and (max-width:410px) {
+    @media screen and (max-width:471px) {
         .the-title{
             font-size: 20px;
             padding: 10vw;
@@ -385,6 +385,37 @@
     }
     .word{
         font-size: 12px;
+    }
+    }
+    @media screen and (max-width:373px) {
+        .title{
+        font-size: 9px;
+        text-align: center;
+        padding-left: 20px;
+    }
+    .category{
+        font-size: 10px;
+        padding-left: 23px;
+    }
+    .image3{
+        width: 100px;
+    }
+    .price{
+        font-size: 10px;
+        padding-left: 24px;
+    }
+    .inp{
+        width: 50px;
+    }
+    .SP{
+        margin-left: 10px;
+        width: 70px;
+        height: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .word{
+        font-size: 11px;
     }
     }
    
